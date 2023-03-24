@@ -1,0 +1,25 @@
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    master:
+      - step:
+          deployment: live
+          name: Deploy to live
+          script:
+            - pipe: atlassian/ssh-run:0.3.0
+              variables:
+                SSH_USER: 'ubuntu'
+                SERVER: 'kokorofoods.cl'
+                COMMAND: 'sudo rm -rf ./kokorofoods2.0/*'
+            - pipe: atlassian/sftp-deploy:0.5.7
+              variables:
+                USER: 'ubuntu'
+                SERVER: 'kokorofoods.cl'
+                REMOTE_PATH: '/home/ubuntu/kokorofoods2.0/'
+                DEBUG: 'true'
+            - pipe: atlassian/ssh-run:0.3.0
+              variables:
+                SSH_USER: 'ubuntu'
+                SERVER: 'kokorofoods.cl'
+                COMMAND: 'bash ./kokorofoods2.0/deploy.sh'

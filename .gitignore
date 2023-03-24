@@ -1,0 +1,14 @@
+backend/backend/__pycache__/*
+backend/backend/migrations/__pycache__/*
+backend/core/__pycache__/*
+backend/core/migrations/__pycache__/*
+backend/core/management/__pycache__/*
+backend/core/management/commands/__pycache__/*
+backend/user/__pycache__/*
+backend/user/migrations/__pycache__/*
+backend/db.sqlite3
+backend/main/__pycache__/*
+backend/main/migrations/__pycache__/*
+backend/main/admin.py
+backend/celerybeat-schedule
+backend/main/integrations/__pycache__/*

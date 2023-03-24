@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+
+  my-app:
+    container_name: front-kokorofoods
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8081:8080'

@@ -1,0 +1,153 @@
+{
+    "menu": {
+        "home": "Home",
+        "nosotros": "About us",
+        "ajoNegro": "Black Garlic",
+        "tipRecetas": "Recepies",
+        "contacto": "Contact us",
+        "catalogo": "Shop with us"
+    },
+    "general":{
+        "Befor_price": "before",
+        "price": "Price"
+    },
+    "Tag":{
+        "Nostock":"Out of Stock"
+    },
+    "Buttons": {
+        "buy": "buy",
+        "GoProducts": "see products",
+        "ViewCatalog": "view the catalog",
+        "ViewStores": "Where to buy",
+        "Back": "back",
+        "addtocart": "add to my cart",
+        "Sent": "Sent",
+        "SalesPoint": "Find a store",
+        "ContactUS": "Contcat us",
+        "qaButton": "Frequently asked questions",
+        "pay": "pay now",
+        "continue": "Continue",
+        "OutStock": "Agotado",
+        "cont_buy": "Keep buying"
+    },
+    "ajoNegro": {
+        "Mobile_title": "What is <span class = 'text-muted'><br> black garlic? </span>",
+        "Mobile_subtitle": "<span class = 'text-muted'> Black Garlic is the result of the </span> <br> controlled maturation process of a common Garlic that last 30 days",
+        "Mobile_descrip": "During this process the garlic loses its strong and passy smell, <strong> without losing nutritional properties and acquiring a sweet, smooth flavor and without a passive odor. </strong> Thanks to this process, many of the properties are enhanced.",
+        "Historia-Title": "History of garlic",
+        "Historia-body": "<p> The history of black garlic is confusing and not very clear, as the first records date back more than 4,000 years. There are multiple records in Asia about the use of black garlic as a medicine to treat diseases, especially in China and Korea.\n In Thailand several historical documents describe the use of black garlic as a way to extend the life of those who consumed it. \n In There is a record in the Roman Empire where black garlic was given to gladiators prior to fights, as a way to increase the gladiator's energy. \n Nowadays garlic is one of the best-known superfoods in the world, on the Asian continent It is used by haute cuisine as well as by food producers, we can find drinks with black garlic, beer with black garlic, bread with black garlic etc. </p>",
+        "Inmune-Title": "Black Garlic and the Immune System",
+        "Inmune-body": "<p> It has been shown that black garlic strengthens the immune system, because it contains 18 of the 20 amino acids that exist, it contains all the essential amino acids, those that humans cannot produce, it contains 2.5 times more of amino acids than common garlic, added to this, the large amount of vitamins (B1, B2, B3 and C), fiber, iodine, potassium, sulfur, sodium, iron and calcium. All these nutrients help to improve the quality of life. \n It is also a powerful natural antioxidant, thanks to the fact that during the ripening process of black garlic the antioxidants are enhanced, making black garlic contain 10 times more than ordinary garlic. \n It is believed that one of the components of black garlic that helps the immune system is S-allyl-L-cysteine ​​(SAC), in this study carried out in China and Japan, it was shown that black garlic reduced the generation and tumor recovery in rats. The generation of tumors is directly linked to the immune system. \n It is a natural antibiotic, it attacks and prevents the development of bacteria in the body. It also has a natural antibiotic and antifungal that fights certain fungi </p>",
+        "Cardio-Title": "Black garlic and cardiovascular disease",
+        "Cardio-body": "<p> Black garlic lowers blood pressure and platelet aggregation, improving blood circulation. There are studies that show the efficacy of black garlic in recovering from heart attacks in mice. </p> <p> Several studies have shown the improvement in cholesterol levels, thanks to the regular consumption of black garlic, high lipid levels can be reduced in the blood. In a study carried out in China, the cholesterol in rats fed a high-fat diet, obtained a strong decrease thanks to black garlic. </p> <p> In another study carried out on 60 people with high cholesterol, they were given 6gr . of black garlic for 12 weeks. It was able to significantly increase HDL (good cholesterol) levels in patients taking black garlic compared to the control group. </p><a href='https://www.sciencedirect.com/science/article/abs/pii/S0899900714001191'>https://www.sciencedirect.com/science/article/abs/pii/S0899900714001191</a>",
+        "Diabetes-Title": "Black garlic and diabetes",
+        "Diabetes-body": "<p> Improves blood sugar levels thanks to the Allicin content in black garlic helps promote insulin secretion, which facilitates the absorption of glucose from the blood into the cells. </p> <p> In a study conducted in Korea, rats with type 2 diabetes were administered black garlic for 7 weeks, obtaining a decrease in sugar thanks to increased insulin in the blood. </p><p><a href='http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.902.6082&amp;rep=rep1&amp;type=pdf'>http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.902.6082&amp;rep=rep1&amp;type=pdf</a></p>",
+        "Energizante-Title":"Black garlic as a natural energizer",
+        "Energizante-body": "<p> It is a powerful natural energizer due to its high nutritional value, as it contains vitamins and amino acids. Although no studies have yet been conducted to quantify how much energy it provides when consumed, its anti-inflammatory properties have been demonstrated, thanks to its high antioxidant content. </p> <p> <a href = 'https: //www.google.com/url?q=https://www.mdpi.com/1420-3049/19/10/16811&amp;sa=D&amp;ust=1571704586043000'>https://www.mdpi.com / 1420-3049 / 19/10/16811 </a> </p> <p> Inflammation of the body is associated with chronic diseases such as cancer, coronary heart disease, depression and low energy levels </p>",
+        "Sexual-Title": "Black garlic as a sexual enhancer",
+        "Sexual-body": "<p> It is a sexual enhancer thanks to the ability & nbsp; to improve blood circulation in men and women. Specifically in men, the best circulation accompanied with more energy and vitality helps erectile restoration and performance during sexual activity. </p> <p> A study in China showed that black garlic helped restore erectile function in rats, which also had type 2 diabetes </p>",
+        "textBelowHero": "Kokorofoods Black Garlic is a product of <strong> controlled maturation of common Garlic that lasts 30 days, during this process the garlic loses its strong and passive smell, without losing nutritional properties and acquiring a sweet, smooth flavor and without a passive smell. </strong> Thanks to this process many of the properties are enhanced.",
+        "header_title": "<span class = 'text-muted'> What is </span> <br> black garlic?",
+        "text_destacado":"Most studies of black garlic use a dose between 3 g to 10 g of black garlic per day. These doses vary according to the format of black garlic, which can be extract, paste, clove or powder. <p> If it is in paste, the recommended dose is one teaspoon per day, which is equivalent to 6g to 8g of paste . </p>",
+        "dosis":"<span class = 'text-muted'> <br> Dosage </span> <br> Recommended",
+        "product_catalogo": "<span class = 'text-muted'> Check out </span> <br> our products"
+
+    },
+    "Contacto": {
+        "main-blurb": "At Kokorofoods we constantly check our mail, if you have any questions about our product or an order placed in our online store, do not hesitate to write to us"
+    },
+    "Alertas": {
+        "Agrego_carro": "We have added your product to the shopping cart. You can continue shopping or make your payment",
+        "button_pagar": "Go to payment"
+    },
+    "Register": {
+        "main_title": "If you have already bought with us, just enter your email to enter your account"
+    },
+    "Nosotros": {
+        "proposito_1": "We want to bring a healthy life to everyone, who know the exquisite flavor and properties of black garlic and be able to contribute with our grain of sand to a healthier life and a better quality of life for people",
+        "proposito_2": "Enjoy life!",
+        "escribenos": "Write us here"
+        
+    },
+    "ProductModule": {
+        "Title": "Pasta <span class = 'text-muted'> of <br> Black Garlic </span>",
+        "body": "The black garlic paste is ideal for appetizers or to add it to your different daily meals"
+    },
+    "InnovationModule": {
+        "Title": "Innovating and Creating <span class='text-muted'> high quality black garlic </span>",
+        "body": "High quality products that are rich in flavor and nutrients without the after taste of garlic"
+    },
+    "TextArticleModule": {
+        "Title": "A Healthier and Richer Life <span class = 'text-muted'> <br> with Black Garlic </span>",
+        "Title_small": "No garlic smell and 10 times more antioxidant capacity than common Garlic",
+        "body_1": "It contains 10 times more antioxidant capacity than common Garlic, which makes it an excellent nutritional supplement to increase energy levels.",
+        "body_2": "Reduces cholesterol in the blood and helps the circulatory system. In addition to lowering blood sugar, which makes it ideal for diabetics.",
+        "body_3": "It is a natural anti-inflammatory and due to its antioxidant capacity it helps muscle recovery after intense exercise.",
+        "body_4": "Black garlic has been shown to strengthen the immune system, because it contains 18 of the 20 amino acids that exist",
+        "mobile_button": "Read more about the benefits"
+    },
+    "TheMostSalesModule": {
+        "Title": "<span class = 'text-muted'> <br> Our best-selling products </span>"
+    },
+    "TheDestacadoModule": {
+        "name": "<span class = 'text-muted'> <br> Featured </span> <br> Products"
+    },
+    "TheStoreBuyModule": {
+        "Title": "<span class = 'text-muted'> Black garlic </span> <br> Where to buy"
+    },
+    "TheHeaderOP": {
+        "title": "<span class='text-muted'>Check</span> <br>Our products"
+    },
+    "ProductPage":{
+        "Benefits": "<h3> Benefits of Black Garlic </h3> <ul class = 'py-3 px-5 art-list'> <li> Its flavor is sweet and soft in texture, it does not have the strong and passy aroma of Garlic. </li> <li> Contains 18 of the 20 amino acids that exist and contains the 8 essential amino acids. </li> <li> Helps regulate blood sugar ideal for diabetics. </li> <li> Acts as a natural energizer. </li> <li> Reduces excess cholesterol in the blood. </li> <li> Contains 10 times more antioxidant capacity than common garlic, helping the immune system. </li> <li> Helps regulate sleep cycles. </li> </ul>",
+        "BenefitsMobile": "<h3 class = 'featurette-heading'> Benefits of Black Garlic </h3> <ul class = 'mt-5'> <li> Its flavor is sweet and soft in texture, it does not have the strong and passy aroma of Garlic. </li> <li> Contains 18 of the 20 amino acids that exist and contains the 8 essential amino acids. </li> <li> Helps regulate blood sugar ideal for diabetics. </li> <li> Acts as a natural energizer. </li> <li> Reduces excess cholesterol in the blood. </li> <li> Contains 10 times more antioxidant capacity than common garlic, helping the immune system. </li> <li> Helps regulate sleep cycles. </li> </ul>",
+        "price": "Price"
+    },
+    "Footer":{
+        "about": "100% natural super foods to give more vitality to your life.",
+        "Redes": "Follow us on our Networks",
+        "Newsletter_title": "Subscribe to our Newsletter",
+        "Newsletter_body": "Receive offers and new products in your email.",
+        "PuntosVentas_title": "Get to know our stores",
+        "Supported_by": "Supported by:",
+        "language": "Choose Language",
+        "contact_info": "Contact information",
+        "contact_body": "Do you have a question? Write us",
+        "qainfo": "All the answers about black garlic",
+        "Payment_title": "Payment Methods",
+        "Payment_body": "All payments are encrypted with the highest security"
+     },
+     "cart":{
+        "personal": "Personal information",
+        "shipping": "Shipping address",
+        "shipping_method": "Shipping method",
+        "payment": "Payment method",
+        "Subtotal": "Subtotal",
+        "cost_shipping": "shipping cost",
+        "total_cost": "Total"
+     },
+     "store": {
+        "title": "find a <span class='text-muted'><br>store near you</span>",
+        "search": "search by store and city"
+     },
+     "orders": {
+         "my_orders": "My Orders",
+         "number": "#",
+         "favorite_recipes": "Favorite Recipes",
+         "favorite_tips": "Favorite Tips",
+         "subscriptions": "Subscriptions",
+         "date": "DATE",
+         "return": "return",
+         "edit_profile": "Edit Profile",
+         "address": "Address",
+          "apartment_block_or_house": "Apartment Block Or House",
+          "region_state": "Region State",
+          "commune_city": "Commune / City",
+          "postal_code": "Postal Code",
+          "associated_cards": "Associated Cards",
+          "save": "save"
+     },
+     "TheStoreBuyModuleRecipe": {
+        "Title": "<span class = 'text-muted'> Check our</span> <br> Products"
+    }
+}

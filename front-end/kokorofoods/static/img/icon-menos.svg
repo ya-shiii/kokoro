@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Grupo_2150" data-name="Grupo 2150" transform="translate(0 0.1)">
+    <g id="Icons_icon-remove-fav" data-name="Icons/icon-remove-fav" transform="translate(0 -0.1)">
+      <g id="Frame" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="2">
+        <rect width="30" height="30" rx="15" stroke="none"/>
+        <rect x="1" y="1" width="28" height="28" rx="14" fill="none"/>
+      </g>
+      <path id="icon-minus" d="M9.913,0a1.015,1.015,0,0,1,.927,1.084,1.015,1.015,0,0,1-.927,1.084H.927A1.015,1.015,0,0,1,0,1.084,1.015,1.015,0,0,1,.927,0Z" transform="translate(9.446 13.554)"/>
+    </g>
+  </g>
+</svg>

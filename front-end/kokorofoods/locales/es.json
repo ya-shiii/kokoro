@@ -1,0 +1,153 @@
+{
+    "menu": {
+        "home": "Inicio",
+        "nosotros": "Sobre Nosotros",
+        "ajoNegro": "El Ajo Negro",
+        "tipRecetas": "Recetas",
+        "contacto": "Contacto",
+        "catalogo": "Catálogo de Productos"
+    },
+    "general":{
+        "Befor_price": "antes",
+        "price": "Valor"
+    },
+    "Tag":{
+        "Nostock":"Agotado"
+    },
+    "Buttons": {
+        "buy": "comprar",
+        "GoProducts": "Ver productos",
+        "ViewCatalog": "Ver Catálogo",
+        "ViewStores": "Donde Comprar",
+        "Back": "Volver",
+        "addtocart": "Agregar a mi pedido",
+        "Sent": "Enviar",
+        "SalesPoint": "Puntos de Ventas",
+        "ContactUS": "ESCRIBENOS AQUí",
+        "qaButton": "Preguntas frecuentes",
+        "pay": "Pagar",
+        "continue": "Continuar",
+        "OutStock": "Agotado",
+        "cont_buy": "Seguir comprando"
+    },
+    "ajoNegro": {
+        "Mobile_title": "¿Qué es<span class='text-muted'><br>el ajo negro?</span>",
+        "Mobile_subtitle": "<span class='text-muted'>El Ajo Negro es producto de la </span> <br>maduración controlada del Ajo común que dura 30 días",
+        "Mobile_descrip": "durante este proceso el ajo pierde su olor fuerte y pasoso,<strong> sin perder propiedades nutricionales y adquiriendo un sabor dulce, suave y sin olor pasoso.</strong>  Gracias a este proceso muchas de las propiedades son potenciadas.",
+        "Historia-Title": "Historia del ajo",
+        "Historia-body": "<p>La historia del ajo negro es confusa y no es muy clara, ya que los primeros registros datan de más de 4.000 años de antigüedad. Existen múltiples registros en Asia sobre el uso del ajo negro como un medicamento para tratar enfermedades, especialmente en China y Korea.\nEn Tailandia varias documentos históricos describen el uso del ajo negro como una manera de extender la vida de quienes lo consumían.\nEn el imperio romano existen registro donde se les daba ajo negro a los gladiadores previos a las peleas, como una forma de aumentar la energía del gladiador.\nEn la actualidad el ajo es uno de los superalimentos más conocidos en el mundo, en el continente asiático es usado por la alta cocina como también por productores de alimentos, podemos encontrar bebidas con ajo negro, cerveza con ajo negro, pan con ajo negro etc.</p>",
+        "Inmune-Title": "El Ajo Negro y el Sistema Inmunológico",
+        "Inmune-body": "<p>Se ha demostrado que el ajo negro fortalece el sistema inmune, debido a que contiene 18 de los 20 aminoácidos que existen, contienen todos los aminoácidos esenciales, aquellos que el ser humano no puede producir, contiene 2,5 veces más cantidad de aminoácidos que el ajo común, sumado a esto, la gran cantidad de vitaminas (B1, B2, B3 y C), fibra, yodo, potasio, azufre, sodio, hierro y calcio. Todos estos nutrientes ayudan a mejorar la calidad de vida.\n Además es un potente antioxidante natural, gracias a que durante el proceso de maduración del ajo negro los antioxidantes son potenciados logrando que el ajo negro contiene 10 veces más que el ajo común.\nSe cree que uno de los componentes del ajo negro que ayuda al sistema inmunológico es el S-allyl-L-cysteine (SAC), en este estudio realizado en China y Japon, se demostró que el ajo negro redujo hasta un 50% la generación y recuperación de tumores en ratas.  La generación de tumores está directamente ligada con el sistema inmunológico.\nEs un antibiótico natural, ataca y previene el desarrollo de las bacterias en el organismo. Además  posee un antibiótico y antimicótico natural que combate ciertos hongos</p>",
+        "Cardio-Title": "El ajo negro y enfermedades cardiovasculares",
+        "Cardio-body": "<p>El ajo negro disminuye la tensión arterial y la agregación plaquetaria, mejorando la circulación sanguínea. Existen estudios que muestran la eficacia del ajo negro en la recuperación de infartos en ratones.</p><p>Diversos estudios han demostrado la mejora los índices de colesterol, gracias al consumo regular de ajo negro se puede reducir los niveles lipídicos altos en la sangre. En un estudio realizado en China, el colesterol en ratas alimentada con una dieta alta en grasas, obtuvo una fuerte disminución gracias al ajo negro.</p><p>En otro estudio realizado a 60 personas con alto colesterol, se les dio 6gr. de ajo negro por 12 semanas. Logró aumentar considerablemente los niveles de HDL (colesterol bueno) en los pacientes que tomaban ajo negro y comparado con el grupo control.</p><a href='https://www.sciencedirect.com/science/article/abs/pii/S0899900714001191'>https://www.sciencedirect.com/science/article/abs/pii/S0899900714001191</a>",
+        "Diabetes-Title": "El ajo negro y la diabetes",
+        "Diabetes-body": "<p>Mejora los niveles de Azúcar en la sangre gracias al contenido de Alicina en el ajo negro ayuda a promover la secreción de insulina, lo que facilita la absorción de la glucosa de la sangre a las células.</p><p>En un estudio realizado en korea, se administró ajo negro a ratas que presentaban diabetes tipo 2 por 7 semanas, obteniendo una disminución en la azúcar gracias al aumento de insulina en la sangre.</p><p><a href='http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.902.6082&amp;rep=rep1&amp;type=pdf'>http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.902.6082&amp;rep=rep1&amp;type=pdf</a></p>",
+        "Energizante-Title":"El ajo negro como energizante natural",
+        "Energizante-body": "<p>Es un potente energizante natural debido a su alto valor nutritivo, ya que contiene vitaminas y aminoácidos. Si bien no aún no se han realizado estudios que logren cuantificar cuánta energía aporta cuando es consumido, Si se ha demostrado sus propiedades anti inflamatorias, gracias a su alto contenido de antioxidante.</p><p><a href='https://www.google.com/url?q=https://www.mdpi.com/1420-3049/19/10/16811&amp;sa=D&amp;ust=1571704586043000'>https://www.mdpi.com/1420-3049/19/10/16811</a></p><p>La inflamación del cuerpo está asociada a enfermedades crónicas como cáncer, enfermedades coronarias, depresión y bajos niveles de energía</p>",
+        "Sexual-Title": "El ajo negro como potenciador sexual",
+        "Sexual-body": "<p>Es un potenciador sexual gracias a la capacidad &nbsp;de mejorar la circulación sanguínea en hombres y mujeres. Específicamente en hombre la mejor circulación acompañado con mas energia y vitalidad ayuda a la restauración eréctil y performance durante la actividad sexual. </p><p>Un estudio en China, demostro que el ajo negro ayudo a restaurar la funcion erectile en ratas, que ademas presentaban diabetes tipo 2</p>",
+        "textBelowHero": "El Ajo Negro Kokorofoods es producto de la <strong>maduración controlada del Ajo común que dura 30 días, durante este proceso el ajo pierde su olor fuerte y pasoso, sin perder propiedades nutricionales y adquiriendo un sabor dulce, suave y sin olor pasoso.</strong>  Gracias a este proceso muchas de las propiedades son potenciadas.",
+        "header_title": "<span class='text-muted'>¿Qué es el </span> <br>ajo negro?",
+        "text_destacado":"La mayoría de los estudios del ajo negro utilizan una dosis entre 3 gr a 10 gr de ajo negro por día. Estas dosis varían de acuerdo al formato del ajo negro que puede ser extracto, pasta, diente o en polvo.<p> Si es en pasta, la dosis recomendad es una cucharadita de té al día, lo que equivale a 6gr a 8gr de pasta.</p>",
+        "dosis":"<span class='text-muted'><br>Dosis</span><br>Recomendada",
+        "product_catalogo": "<span class='text-muted'>Revisa</span><br>nuestros productos"
+
+    },
+    "Contacto": {
+        "main-blurb": "En Kokorofoods revisamos nuestro correo constantemente, si tienes alguna duda sobre nuestros producto o un pedido realizado en nuestra tienda online, no dudes en escribirnos"
+    },
+    "Alertas": {
+        "Agrego_carro": "Hemos agredo tu producto al carro de compra. Puedes seguir comprando o realizar tu pago",
+        "button_pagar": "Ir al pago"
+    },
+    "Register": {
+        "main_title": "Si ya has comprado con nosotros solo ingresa tu email para entrar a tu cuenta"
+    },
+    "Nosotros": {
+        "proposito_1": "Queremos llevar la vida saludable a todo el mundo, que conozcan el exquisito sabor y propiedades del ajo negro y poder aportar con nuestro grano de arena a una vida más saludable y mejor calidad de vida para las personas",
+        "proposito_2": "Buenas olas a todos!",
+        "escribenos": "Escríbenos aquí"
+        
+    },
+    "ProductModule": {
+        "Title": "Pasta <span class='text-muted'>de <br> Ajo Negro</span>",
+        "body": "La pasta de ajo negro es ideal para aperitivos o para añadirlo en tus distintas comidas díarias"
+    },
+    "InnovationModule": {
+        "Title": "Innovando y Creando<span class='text-muted'><br>ajo negro de alta calidad</span>",
+        "body": "Productos de alta calidad que te entregan sabor y nutrientes sin el pasoso olor a ajo"
+    },
+    "TextArticleModule": {
+        "Title": "Una Vida más Sana y Rica<span class='text-muted'><br>con Ajo Negro</span>",
+        "Title_small": "Sin olor a ajo y 10 veces más capacidad antioxidante que el Ajo común",
+        "body_1": "Contiene 10 veces más capacidad antioxidante que el Ajo común, lo que lo hace un excelente suplemento alimenticio para aumentar los niveles de energía.",
+        "body_2": "Reduce el colesterol en la sangre y ayuda al sistema circulatorio. Además de disminuir la azúcar en la sangre, lo cual lo hace ideal para diabeticos.",
+        "body_3": "Es un anti inflamatorio natural y debido a su capacidad antoxidante ayuda a la recuperacion muscular luego del ejercicio intenso.",
+        "body_4": "Se ha demostrado que el ajo negro fortalece el sistema inmune, debido a que contiene 18 de los 20 aminoácidos que existen",
+        "mobile_button": "Lee más sobre los beneficios"
+    },
+    "TheHeaderOP": {
+        "title": "<span class='text-muted'>Revisa el</span> <br>Catálogo de Productos"
+    },
+    "TheMostSalesModule": {
+        "Title": "<span class='text-muted'><br>Nuestros productos</span><br> más vendidos"
+    },
+    "TheDestacadoModule": {
+        "name": "<span class='text-muted'><br>Productos</span><br>Destacados"
+    },
+    "TheStoreBuyModule": {
+        "Title": "<span class='text-muted'>Ajo negro</span><br>Donde Comprar"
+    },
+    "ProductPage":{
+        "Benefits": "<h3>Beneficios del Ajo Negro</h3><ul class='py-3 px-5 art-list'><li>Su sabor es dulzón y de textura suave, no tiene el fuerte y pasoso aroma a Ajo. </li><li>Contiene 18 de los 20 aminoácidos que existen y contiene los 8 aminoácidos esenciales.</li><li>Ayuda a regular la azúcar en la sangre ideal para diabéticos.</li><li>Actúa como un energizante natural.</li><li>Reduce el exceso de colesterol en la sangre.</li><li>Contiene 10 veces más capacidad antioxidante que el ajo común, ayudando al sistema inmunológico.</li><li>Ayuda a regular los ciclos del sueño.</li></ul>",
+        "BenefitsMobile": "<h3  class='featurette-heading'>Beneficios del Ajo Negro</h3><ul class='mt-5'><li>Su sabor es dulzón y de textura suave, no tiene el fuerte y pasoso aroma a Ajo. </li><li>Contiene 18 de los 20 aminoácidos que existen y contiene los 8 aminoácidos esenciales.</li><li>Ayuda a regular la azúcar en la sangre ideal para diabéticos.</li><li>Actúa como un energizante natural.</li><li>Reduce el exceso de colesterol en la sangre.</li><li>Contiene 10 veces más capacidad antioxidante que el ajo común, ayudando al sistema inmunológico.</li><li>Ayuda a regular los ciclos del sueño.</li></ul>",
+        "price": "Valor"
+    },
+    "Footer":{
+        "about": "Super alimentos 100% naturales para dar más vitalidad a tu vida.",
+        "Redes": "Síguenos en nuestras Redes",
+        "Newsletter_title": "Suscribete a nuestro Newsletter",
+        "Newsletter_body": "Receive ofertas y nuevos productos en tu email.",
+        "PuntosVentas_title": "Conoce nuestros puntos de ventas",
+        "Supported_by": "Apoyado por:",
+        "language": "Elegir Lenguaje",
+        "contact_info": "Información de Contacto",
+        "contact_body": "¿Tienes una duda? Escribenos",
+        "qainfo": "Todas las respuestas sobre el ajo negro",
+        "Payment_title": "Formas de Pago",
+        "Payment_body": "Todos los pagos son encriptados con la mas alta seguridad"
+    },
+    "cart":{
+        "personal": "Información Personal",
+        "shipping": "Direccion de despacho",
+        "shipping_method": "Forma de Envío",
+        "payment": "Metodo de pago",
+        "Subtotal": "Subtotal",
+        "cost_shipping": "Envío",
+        "total_cost": "Total"
+    },
+    "store": {
+        "title": "Conoce nuestros<span class='text-muted'><br>puntos de ventas</span>",
+        "search": "Busca por tienda, comuna o ciudad"
+    },
+    "orders": {
+          "my_orders": "Mis Pedidos",
+          "number": "#",
+          "favorite_recipes": "Recetas Favoritas",
+          "favorite_tips": "Tips Favoritos",
+          "subscriptions": "Suscripciones",
+          "date": "FECHA",
+          "return": "volver",
+          "edit_profile": "Editar Perfil",
+          "address": "Dirección",
+          "apartment_block_or_house": "Dpto, Block o Casa",
+          "region_state": "Región / Estado",
+          "commune_city": "Comuna / Ciudad",
+          "postal_code": "Código Postal",
+          "associated_cards": "Tarjetas Asociadas",
+          "save": "guardar"
+     },
+     "TheStoreBuyModuleRecipe": {
+        "Title": "<span class = 'text-muted'>Productos de</span> Ajo Negro<br>"
+    }
+}
