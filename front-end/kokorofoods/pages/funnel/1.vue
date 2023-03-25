@@ -1,5 +1,28 @@
 <template>
-
+    <main role="main">
+        <section class="container col-md-12 section" v-if="!mobile">
+            <div class="mx-auto" style="width: 80%;">
+                <center>
+                    <p class="text-uppercase mb-0 py-0" style="color: black; font-size: 3.5rem; font-weight: bold;">Disfruta del sabor del ajo negro con un recetario <span style="color:#D5441C">gratis.</span></p><br>
+                    <p class="text-uppercase mt-0 py-0" style="font-size: 3rem; font-weight: smaller;">enviado directamente a tu correo</p>
+                </center> 
+            </div>
+        </section>
+        <section class="container col-md-12 section" v-if="!mobile">
+            <div class="d-flex flex-wrap">
+                <div class="col-7 pl-5">
+                    <div class="bg-light-subtle">
+                        ...
+                    </div>
+                    
+                </div>
+                <div class="col-5">
+                    Second div content here
+                </div>
+            </div>
+        </section>
+    </main>
+    
 </template>
 
 <script>
