@@ -31,29 +31,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-5 mb-1" >
+                <div class="col-5 mb-1">
                     <div class="mb-0 pb-5" style="background-color: #F6F0EE;">
-                        <div class="my-0" style="background-color: #D5441C;">
-                            <p class="text-center text-white text-uppercase py-3 px-2" style="font-size: 1.8rem; font-weight: bold;">Aprovecha  de llevarte este increible resetario gratis ($3.000)</p>
+                        <div class="mt-0 mb-5" style="background-color: #D5441C;">
+                        <p class="text-center text-white text-uppercase py-3 px-2" style="font-size: 1.8rem; font-weight: bold;">Aprovecha de llevarte este increible resetario gratis ($3.000)</p>
                         </div>
-                        <form class="mt-4 px-4 pb-5">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Apellido" aria-label="Apellido">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Email" aria-label="Email">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Telefono mobile" aria-label="Telefono mobile">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Rut" aria-label="Rut">
-
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Calle" aria-label="Nombre">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Numero" aria-label="Nombre">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Comuna" aria-label="Nombre">
-                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Cludad" aria-label="Nombre">
-
-                            <input class="pl-5 form-control form-control-lg" type="text" placeholder="Region" aria-label="Nombre">
-                            <input class="pl-5 form-control form-control-lg" type="text" placeholder="Codigo postal" aria-label="Nombre">
-                        </form> 
+                        <form class="mt-5 px-4 pb-5 pt-3">
+                        <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre">
+                        <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Apellido" aria-label="Apellido">
+                        <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Email" aria-label="Email">
+                        <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Telefono mobile" aria-label="Telefono mobile">
+                        <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Rut" aria-label="Rut">
+                        <div class="d-flex flex-wrap">
+                            <p class="col-2">Despacho</p>
+                            <div class="col-10 mt-2" style="border-top: 2px solid black;"></div>
+                        </div>
+                        <div class="d-flex flex-wrap">
+                            <input class="pl-5 mb-4 form-control form-control-lg" style="flex-basis: 100%;" type="text" placeholder="Calle" aria-label="Nombre">
+                            <input class="pl-5 mb-4 form-control form-control-lg" style="flex-basis: 100%;" type="text" placeholder="Numero" aria-label="Nombre">
+                            <input class="pl-5 mb-4 form-control form-control-lg" style="flex-basis: 100%;" type="text" placeholder="Comuna" aria-label="Nombre">
+                        </div>
+                        <div class="d-flex flex-wrap">
+                            <div style="flex-basis: 49%; margin-right: 2%;" >
+                                <input class="pl-5 form-control form-control-lg" type="text" placeholder="Region" aria-label="Nombre">
+                                <p class="mt-5 mb-0" style="font-weight: 700;">Total con despacho</p>
+                                <p style="font-size: 1.5rem; font-weight: 700;">$10.500</p>
+                            </div>
+                            <div  style="flex-basis: 49%;" >
+                                <input class="pl-5 form-control form-control-lg" type="text" placeholder="Codigo postal" aria-label="Codigo postal">
+                                <button type="button" class="mt-5 mb-0 text-uppercase btn btn-outline-dark">compar</button>
+                            </div>
+                            
+                        </div>
+                        </form>
                     </div>
-                    
                 </div>
+
             </div>
         </section>
     </main>
