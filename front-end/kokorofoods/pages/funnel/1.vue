@@ -1,23 +1,58 @@
 <template>
     <main role="main">
         <section class="container col-md-12 section" v-if="!mobile">
-            <div class="mx-auto" style="width: 80%;">
-                <center>
-                    <p class="text-uppercase mb-0 py-0" style="color: black; font-size: 3.5rem; font-weight: bold;">Disfruta del sabor del ajo negro con un recetario <span style="color:#D5441C">gratis.</span></p><br>
-                    <p class="text-uppercase mt-0 py-0" style="font-size: 3rem; font-weight: smaller;">enviado directamente a tu correo</p>
-                </center> 
+            <div class="mx-auto" style="width: 100%;">
+                    <p class="text-center text-uppercase mb-0 py-0" style="color: black; font-size: 3.5rem; font-weight: bold;">Disfruta del sabor del ajo negro con un recetario <span style="color:#D5441C">gratis.</span></p><br>
+                    <p class="text-center text-uppercase mt-0 py-0" style="font-size: 3rem; font-weight: smaller;">enviado directamente a tu correo</p>
             </div>
         </section>
-        <section class="container col-md-12 section" v-if="!mobile">
-            <div class="d-flex flex-wrap">
+        <section class="container col-md-12 section p-0" v-if="!mobile">
+            <div class="d-flex flex-wrap row p-0">
                 <div class="col-7 pl-5">
-                    <div class="bg-light-subtle">
+                    <div class="mb-5" style="background-color: #D9D9D9; width:100%; height: 600px;">
                         ...
                     </div>
-                    
+                    <div>
+                        <p class="pl-2 mb-5">Disfruta este ajo negro con un recetario que te ayudara a sorprender amigos y familiares.</p>
+                        <p class="pl-2 mt-5" style="font-size: 1.2rem; font-weight: 700;">Que llevarías:</p>
+                        <div class="pl-4 mb-5">
+                            <ul class="mb-3" style="color:black">
+                                <li><b>140gr de Ajo Negro</b> puro $6.500.</li>
+                                <li><b>100% Ajo Negro</b> sin conservantes.</li>
+                                <li>Producido con Ajo cultivado en <b>Chile.</b></li>
+                                <li>Listo para usar, no necesita cocción.</li>
+                                <li>Recetario <b>Exclusivo</b> Kokorofoods Valor $3.000.</li>    
+                            </ul>
+                            <div class="d-flex flex-column">
+                                <p class="my-0" ><span style="text-decoration: line-through;">Antes: $9.500</span></p>
+                                <p class="my-0" style="font-size: 1.5rem; font-weight: 700;">$6.500:</p>
+                                <p class="mt-0" style="font-weight: 700;">+ despacho ($4.000)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-5">
-                    Second div content here
+                <div class="col-5 mb-1" >
+                    <div class="mb-0 pb-5" style="background-color: #F6F0EE;">
+                        <div class="my-0" style="background-color: #D5441C;">
+                            <p class="text-center text-white text-uppercase py-3 px-2" style="font-size: 1.8rem; font-weight: bold;">Aprovecha  de llevarte este increible resetario gratis ($3.000)</p>
+                        </div>
+                        <form class="mt-4 px-4 pb-5">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Nombre" aria-label="Nombre">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Apellido" aria-label="Apellido">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Email" aria-label="Email">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Telefono mobile" aria-label="Telefono mobile">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Rut" aria-label="Rut">
+
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Calle" aria-label="Nombre">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Numero" aria-label="Nombre">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Comuna" aria-label="Nombre">
+                            <input class="pl-5 mb-4 form-control form-control-lg" type="text" placeholder="Cludad" aria-label="Nombre">
+
+                            <input class="pl-5 form-control form-control-lg" type="text" placeholder="Region" aria-label="Nombre">
+                            <input class="pl-5 form-control form-control-lg" type="text" placeholder="Codigo postal" aria-label="Nombre">
+                        </form> 
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -30,7 +65,7 @@ export default {
     auth: 'guest',
     data () {
         return {
-            Title: '<span class="text-muted">Ajo negro de calidad,</span> <br>comprometidos con el medio ambiente.',
+            /*Title: '<span class="text-muted">Ajo negro de calidad,</span> <br>comprometidos con el medio ambiente.',
             Image_url: '/img/img-nosotros.jpg',
             Background_color: '#000000',
             title: '<span class="text-muted">Ajo negro</span><br>Ir al Catálogo ',
@@ -39,7 +74,7 @@ export default {
             image_url: '/img/img-catalogo.jpg',
             image_url_mob: '/img/mobile/img-catalogo-1.jpg',
             class_section: 'ir-catalogo',
-            title_mobile: 'Headline<span class="text-muted"><br>About Us</span>',
+            title_mobile: 'Headline<span class="text-muted"><br>About Us</span>',*/
             mobile: false
         }
     },
@@ -52,4 +87,7 @@ export default {
 </script>
 
 <style>
+#omnisend-dynamic-container{
+    display: none;
+}
 </style>
