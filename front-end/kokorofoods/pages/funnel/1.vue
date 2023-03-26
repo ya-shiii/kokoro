@@ -3,7 +3,7 @@
         <section class="container col-md-12 section" v-if="!mobile">
             <!--Head content-->
             <div class="mx-auto" style="width: 100%;">
-                    <p class="text-center text-uppercase mb-0 py-0" style="color: black; font-size: 3.5rem; font-weight: bold;">Disfruta del sabor del ajo negro con un recetario 
+                    <p class="text-center text-uppercase mb-0 py-0" style="color: black; font-size: 3.5rem; font-weight: bold;">Disfruta del sabor del ajo negro con un recetario
                         <span style="color:#D5441C">gratis.</span></p>
                     <p class="text-center text-uppercase mt-0 py-0" style="font-size: 3rem; font-weight: smaller;">enviado directamente a tu correo</p>
             </div>
@@ -16,7 +16,7 @@
                         ...
                     </div>
                     <div>
-                        <p class="pl-2 mb-5">Disfruta este ajo negro con un recetario que te ayudara a sorprender amigos y familiares.</p>
+                        <p class="pl-2 mb-5 text-start">Disfruta este ajo negro con un recetario que te ayudara a sorprender amigos y familiares.</p>
                         <p class="pl-2 mt-5" style="font-size: 1.2rem; font-weight: 900;">Que llevarías:</p>
                         <div class="pl-4 mb-5">
                             <ul class="mb-3" style="color:black">
@@ -24,7 +24,7 @@
                                 <li><b>100% Ajo Negro</b> sin conservantes.</li>
                                 <li>Producido con Ajo cultivado en <b>Chile.</b></li>
                                 <li>Listo para usar, no necesita cocción.</li>
-                                <li>Recetario <b>Exclusivo</b> Kokorofoods Valor $3.000.</li>    
+                                <li>Recetario <b>Exclusivo</b> Kokorofoods Valor $3.000.</li>
                             </ul>
                             <div class="d-flex flex-column">
                                 <p class="my-0" ><span style="text-decoration: line-through;">Antes: $9.500</span></p>
@@ -65,7 +65,7 @@
                                 <input class="pl-5 form-control form-control-lg" type="text" placeholder="Codigo postal" aria-label="Codigo postal">
                                 <button type="button" class="mt-5 mb-0 text-uppercase btn btn-outline-dark">compar</button>
                             </div>
-                            
+
                         </div>
                         </form>
                     </div>
@@ -74,7 +74,7 @@
             </div>
         </section>
     </main>
-    
+
 </template>
 
 <script>
