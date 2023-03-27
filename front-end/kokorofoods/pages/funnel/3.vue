@@ -1,5 +1,5 @@
 <template>
-  <main role="main" style="background-color:#F3F5E6; padding-bottom: 60px; min-height: calc(100vh - 60px)">
+  <main role="main" style="background-color:#F3F5E6;">
     <section class="pl-2 pr-2" v-if="!mobile">
       <div class="mx-auto" style="width: 100% ">
           <p class="text-uppercase mb-0 py-0 text-center" style="color: black; font-size: 3.5rem; font-weight: bold">
@@ -11,7 +11,7 @@
           </p>
       </div>
     </section>
-    <section style="padding:0!important;" v-if="!mobile">
+    <section class="py-0" v-if="!mobile">
       <div class="d-flex justify-content-center">
         <div>
           <div style="background-color: grey; height: 429px; width: 949px;">
@@ -19,10 +19,10 @@
         </div>
       </div>
     </section>
-    <section style="padding:0!important;" v-if="!mobile">
+    <section class="py-0" v-if="!mobile">
       <div class="d-flex justify-content-left" style="margin-left: 15%; margin-top: 30px">
         <div>
-          <p class="text-start" style="font-size: 16px; margin-top: 2rem;">
+          <p class="text-start fs-16 mt-5" >
             Disfruta este ajo negro con un recetario que te ayudará a sorprender amigos y familiares.
           </p>
           <h4 style="font-weight: 700; color: #000000">Qué llevarías:</h4>
@@ -34,24 +34,22 @@
             <li>Recetario <span style="font-weight: 700; color: #000000">Exclusivo</span>  Kokorofoods Valor $3.000</li>
           </ul></span>
         </div>
-        </div>
+      </div>
         <div class="d-flex flex-column justify-content-center align-items-center">
-            <p style="font-size: 16px; margin-bottom: 0">
-              <del> Antes: $9.500 </del>
-            </p>
-            <p style="font-size: 35px; font-weight: 700; margin-bottom: 0">
-              $23.500
-            </p>
+            <div>
+            <p  class="mt-5 mb-0" style="font-size: 16px;"><del> Antes: $9.500 </del></p>
+            </div>
+            <div>
+            <p class="mb-0" style="font-size: 35px; font-weight: 700;">$23.500</p>
+            </div>
             <p style="font-size: 16px; font-weight: 700">+ despacho ($4.000)</p>
             <div>
-              <button type="button" class="mt-5 mb-0 text-uppercase btn btn-outline-dark">compar</button>
+            <button type="button" class="mt-5 mb-0 text-uppercase btn btn-outline-dark">compar</button>
             </div>
             <div class="pb-2 pt-4 mb-5">
-              <a href="" style="color: grey; text-decoration: underline!important; ">No gracias, quiero pagar el despacho de $4.000</a>
+            <a href="" style="color: grey; text-decoration: underline!important; ">No gracias, quiero pagar el despacho de $4.000</a>
             </div>
-
           </div>
-
     </section>
   </main>
 </template>
