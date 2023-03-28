@@ -14,7 +14,7 @@
     <section class="py-0" v-if="!mobile">
       <div class="d-flex justify-content-center">
         <div>
-          <div style="background-color: grey; height: 429px; width: 949px;">
+          <div class="gray-box" >
           </div>
         </div>
       </div>
@@ -87,5 +87,17 @@ export default {
 }
 main {
   min-height: calc(100vh - 100px); /* Set the minimum height of the main section to be the height of the viewport minus the height of the footer */
+}
+.gray-box {
+  background-color: grey; 
+  height: 429px; 
+  width: 949px;
+}
+
+@media only screen and (max-width: 1023px) {
+.gray-box {
+  height: 300px;
+  width: 100%;
+}
 }
 </style>
