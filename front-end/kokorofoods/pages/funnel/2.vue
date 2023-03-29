@@ -200,4 +200,5 @@ export default {
   padding-left:110px;
 }
 
+
 </style>
