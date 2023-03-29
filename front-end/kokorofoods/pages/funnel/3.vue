@@ -1,7 +1,7 @@
 <template>
   <main role="main">
     <section class="pl-2 pr-2" v-if="!mobile">
-      <div class="mx-auto" style="width: 100% ">
+      <div class="head mx-auto">
           <p class="ng text-uppercase mb-0 py-0 text-center">
             <span style="color: #d5441c">24% de descuento</span> En Sal Con Ajo
           </p>
@@ -22,16 +22,16 @@
     <section class="py-0" v-if="!mobile">
       <div class="cont d-flex justify-content-left">
         <div>
-          <p class="text-start fs-16 mt-5" >
+          <p class="text-start mt-5" >
             Disfruta este ajo negro con un recetario que te ayudará a sorprender amigos y familiares.
           </p>
-          <h4 class="listed">Qué llevarías:</h4>
-          <span><ul style="padding-left: 40px;">
-            <li><span class="listed">140gr de Ajo Negro</span> puro $6.500.</li>
-            <li><span class="listed">100% Ajo Negro</span> sin conservantes.</li>
-            <li>Producido con Ajo cultivado en <span class="listed">Chile.</span></li>
+          <h4 class="lstd">Qué llevarías:</h4>
+          <span><ul class="pad">
+            <li><span class="lstd">140gr de Ajo Negro</span> puro $6.500.</li>
+            <li><span class="lstd">100% Ajo Negro</span> sin conservantes.</li>
+            <li>Producido con Ajo cultivado en <span class="lstd">Chile.</span></li>
             <li>Listo para usar, no necesita cocción.</li>
-            <li>Recetario <span class="listed">Exclusivo</span>  Kokorofoods Valor $3.000</li>
+            <li>Recetario <span class="lstd">Exclusivo</span>  Kokorofoods Valor $3.000</li>
           </ul></span>
         </div>
       </div>
@@ -89,6 +89,10 @@ main {
   min-height: calc(100vh - 100px); /* Set the minimum height of the main section to be the height of the viewport minus the height of the footer */
   background-color:#F3F5E6;
 }
+.head
+{
+  width: 100%;
+}
 .gray-box {
   background-color: grey;
   height: 429px;
@@ -119,6 +123,10 @@ main {
   color: #000000;
 }
 
+.pad
+{
+  padding-left: 40px;
+}
 .p1
 {
   font-size: 16px;

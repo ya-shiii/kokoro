@@ -1,18 +1,18 @@
 <template>
     <header>
   <div id="mySidebar" class="sidebar">
-    
+
     <ul class="navbar-nav mr-auto">
       <li><a href="javascript:void(0)" class="closebtn" @click="closeNav">×</a></li>
       <li>
            <p>
-               <!-- <button class="btn log-btn my-2 my-sm-0" 
-                    type="submit" 
+               <!-- <button class="btn log-btn my-2 my-sm-0"
+                    type="submit"
                     @click="GoAccount">
                     <img src="/img/Icons-icon-settings.svg" alt="">
                          Mi Cuenta
                </button> -->
-               <nuxt-link class="btn log-btn my-2 my-sm-0 my-account" 
+               <nuxt-link class="btn log-btn my-2 my-sm-0 my-account"
                     :to="Linkauth()">
                     <img src="/img/Icons-icon-settings.svg" alt="">
                          Mi Cuenta
@@ -32,20 +32,20 @@
       <li class="nav-item border-bottom">
         <NuxtLink class="nav-link" :to="localePath('/recetas')" tabindex="-1">{{ $t('menu.tipRecetas') }}<span><img src="/img/path.svg" alt=""></span></NuxtLink>
       </li>
-      
+
       <li class="nav-item border-bottom">
           <NuxtLink class="nav-link" :to="localePath('/contacto')" tabindex="-1">{{ $t('menu.contacto') }}<span><img src="/img/path.svg" alt=""></span></NuxtLink>
     </li>
       <li class="nav-item border-bottom">
         <NuxtLink class="nav-link" :to="localePath('/productos')" tabindex="-1">{{ $t('menu.catalogo') }}<span><img src="/img/path.svg" alt=""></span></NuxtLink>
       </li>
-      <li class="idioma-ic"><p>{{$t('Footer.language')}} <div class="idiomas"><span><img src="/img/path.svg" alt=""></span>
+      <li class="idioma-ic">{{$t('Footer.language')}} <div class="idiomas"><span><img src="/img/path.svg" alt=""></span>
         <button class="btn my-2 my-sm-0" :class="ESClass" @click="$i18n.setLocale('es')" :type="LanClass">esp</button>
         <button class="btn my-2 my-sm-0" :class="ENClass" :type="LanClass" @click="$i18n.setLocale('en')"> eng</button></div>
       </li>
     </ul>
   </div>
-  
+
   <div id="main">
         <nav class="navbar navbar-light fixed-top bg-light openbtn">
           <button  @click="openNav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
           </button>
         </nav>
   </div>
-      
+
       </header>
 </template>
 
