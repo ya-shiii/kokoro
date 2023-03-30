@@ -1,18 +1,18 @@
 <template>
     <header>
   <div id="mySidebar" class="sidebar">
-    
+
     <ul class="navbar-nav mr-auto">
       <li><a href="javascript:void(0)" class="closebtn" @click="closeNav">×</a></li>
       <li>
            <p>
-               <!-- <button class="btn log-btn my-2 my-sm-0" 
-                    type="submit" 
+               <!-- <button class="btn log-btn my-2 my-sm-0"
+                    type="submit"
                     @click="GoAccount">
                     <img src="/img/Icons-icon-settings.svg" alt="">
                          Mi Cuenta
                </button> -->
-               <nuxt-link class="btn log-btn my-2 my-sm-0 my-account" 
+               <nuxt-link class="btn log-btn my-2 my-sm-0 my-account"
                     :to="Linkauth()">
                     <img src="/img/Icons-icon-settings.svg" alt="">
                          Mi Cuenta
@@ -32,7 +32,7 @@
       <li class="nav-item border-bottom">
         <NuxtLink class="nav-link" :to="localePath('/recetas')" tabindex="-1">{{ $t('menu.tipRecetas') }}<span><img src="/img/path.svg" alt=""></span></NuxtLink>
       </li>
-      
+
       <li class="nav-item border-bottom">
           <NuxtLink class="nav-link" :to="localePath('/contacto')" tabindex="-1">{{ $t('menu.contacto') }}<span><img src="/img/path.svg" alt=""></span></NuxtLink>
     </li>
@@ -45,7 +45,7 @@
       </li>
     </ul>
   </div>
-  
+
   <div id="main">
         <nav class="navbar navbar-light fixed-top bg-light openbtn">
           <button  @click="openNav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
           </button>
         </nav>
   </div>
-      
+
       </header>
 </template>
 
