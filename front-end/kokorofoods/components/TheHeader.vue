@@ -39,7 +39,7 @@
       <li class="nav-item border-bottom">
         <NuxtLink class="nav-link" :to="localePath('/productos')" tabindex="-1">{{ $t('menu.catalogo') }}<span><img src="/img/path.svg" alt=""></span></NuxtLink>
       </li>
-      <li class="idioma-ic"><p>{{$t('Footer.language')}} <div class="idiomas"><span><img src="/img/path.svg" alt=""></span>
+      <li class="idioma-ic">{{$t('Footer.language')}} <div class="idiomas"><span><img src="/img/path.svg" alt=""></span>
         <button class="btn my-2 my-sm-0" :class="ESClass" @click="$i18n.setLocale('es')" :type="LanClass">esp</button>
         <button class="btn my-2 my-sm-0" :class="ENClass" :type="LanClass" @click="$i18n.setLocale('en')"> eng</button></div>
       </li>
