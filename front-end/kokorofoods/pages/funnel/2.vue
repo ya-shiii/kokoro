@@ -38,35 +38,35 @@
         <!--Left content-->
         <div class="col-md-5 mb-1 order-md-2 order-2">
           <div class="leftcontent mb-0 pb-0">
-          <div class="left1 mt-0 mb-5">
-          <p class="left2 text-center text-white text-uppercase py-3 px-2">Agrega una pasta y aprovecha despacho gratis</p>
-        </div>
-          <form class="mt-5 px-4 pb-5 pt-2">
-          <div class="d-flex flex-wrap">
-            <p class="left3 mb-4 pr-3">Ecoge tu ajo negro</p>
-            <div class="left4 col-8"></div>
-          </div>   
-          <div class="left5 pl-4 checkbox-container">       
-          <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro 140gr</p>
-          <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro 140gr</p>
-          <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro con merken 140gr </p>
-          <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro con maqui 140gr </p>
-          <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro con miel de ulmo 140gr </p>
-        </div>  
-          <div class="d-flex flex-wrap">
-            <div class="left6">
-              <p class="left7 mt-5 mb-0">Total</p>
-              <p class="left8">$16.500</p>
+            <div class="left1 mt-0 mb-5">
+              <p class="left2 text-center text-white text-uppercase py-3 px-2">Agrega una pasta y aprovecha despacho gratis</p>
             </div>
-              <div class="mt-2">
-                <button type="button" class="mt-5 text-uppercase btn btn-outline-dark">comprar</button>
+            <form class="mt-5 px-4 pb-5 pt-2">
+              <div class="d-flex flex-wrap">
+                <p class="left3 mb-4 pr-3">Ecoge tu ajo negro</p>
+                <div class="left4 col-8"></div>
+              </div>   
+              <div class="left5 pl-4 checkbox-container">       
+                <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro 140gr</p>
+                <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro 140gr</p>
+                <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro con merken 140gr </p>
+                <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro con maqui 140gr </p>
+                <input class="mb-4 form-check-input" type="checkbox"><p class="pl-3">Pasta de ajo negro con miel de ulmo 140gr </p>
+              </div>  
+              <div class="d-flex flex-wrap">
+                <div class="left6">
+                  <p class="left7 mt-5 mb-0">Total</p>
+                  <p class="left8">$16.500</p>
+                </div>
+                <div class="mt-2">
+                  <button type="button" class="mt-5 text-uppercase btn btn-outline-dark">comprar</button>
+                </div>
               </div>
-          </div>
-          <div class="pb-2 mt-0 mb-5 px-5 mr-0">
-              <a href="" class="left9">No gracias, quiero pagar el despacho de $4.000</a>
-            </div>
+              <div class="pb-2 mt-0 mb-5 px-5 mr-0">
+                <a href="" class="left9">No gracias, quiero pagar el despacho de $4.000</a>
+              </div>
             </form>
-        </div>
+          </div>
         </div>
       </div>
     </section>
@@ -176,11 +176,6 @@ export default {
   font-weight: 700;
 }
 
-.left4 {
-  border-top: 2px solid black; 
-  margin-top:12px;
-}
-
 .left6 {
   flex-basis: 46%;
 }
@@ -194,11 +189,16 @@ export default {
   font-weight: 700;
 }
 
-.left9 {
+@media only screen and (max-width: 1023px) {
+.left4 {
+  border-top: 2px solid black; 
+  margin-top:12px;
+}
+  .left9 {
   color: grey; 
   text-decoration: underline!important; 
   padding-left:110px;
 }
-
+}
 
 </style>
