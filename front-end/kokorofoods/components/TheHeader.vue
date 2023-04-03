@@ -271,4 +271,9 @@ export default {
 .my-account{
      width: 150px;
 }
+@media (max-width: 820px) {
+  .search-fr input {
+    display: none;
+  }
+}
 </style>

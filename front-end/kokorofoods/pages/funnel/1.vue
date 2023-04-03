@@ -1,6 +1,6 @@
 <template>
-    <main role="main">
-        <section class="container col-md-12 section" v-if="!mobile">
+    <div style="background-color: #F3F5E6!important;">
+        <section class="container col-md-12 section " v-if="!mobile">
             <!--Head content-->
             <div class="mx-auto" style="width: 100%;">
                     <p class="text-center text-uppercase mb-0 py-0" style="color: black; font-size: 3.5rem; font-weight: bold;">Disfruta del sabor del ajo negro con un recetario
@@ -13,7 +13,6 @@
                 <!--Right content-->
                 <div class="col-md-7 pl-md-5 order-md-1 order-1">
                     <div class="mb-5" style="background-color: #D9D9D9; width:100%; height: 600px;">
-                        ...
                     </div>
                     <div>
                         <p class="pl-2 mb-5 text-start">Disfruta este ajo negro con un recetario que te ayudara a sorprender amigos y familiares.</p>
@@ -73,7 +72,7 @@
 
             </div>
         </section>
-    </main>
+    </div>
 
 </template>
 
@@ -103,7 +102,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 #omnisend-dynamic-container{
     display: none;
 }

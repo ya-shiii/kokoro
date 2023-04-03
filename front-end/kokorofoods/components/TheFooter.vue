@@ -179,9 +179,7 @@ export default {
 span.idioma {
     padding: 6px;
 }
-.footer li {
-    /* margin: 15px 0 0 0; */
-}
+
 .bg-dark-footer {
     background-color: #000 !important;
 }
