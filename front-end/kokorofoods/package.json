@@ -19,6 +19,7 @@
     "@nuxtjs/toast": "^3.3.1",
     "analytics-node": "^6.2.0",
     "axios": "^0.21.4",
+    "bootstrap": "^5.2.3",
     "chunk": "^0.0.3",
     "core-js": "^3.29.1",
     "node-gyp": "^9.3.1",
