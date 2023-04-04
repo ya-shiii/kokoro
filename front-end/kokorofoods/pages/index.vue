@@ -113,7 +113,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #main {
   transition: margin-left 0.5s;
   transition: ease-in 0.5s;

@@ -1,21 +1,21 @@
 <template>
-  <main role="main" class="bg-light-green">
-    <section class="container col-md-12 section" v-if="!mobile">
+  <div class="bg-light-green pt-5">
+    <div class="col-md-12" v-if="!mobile">
       <!--Head content-->
       <div class="headcontent mx-auto">
         <p class="head1 text-center text-uppercase mb-0 py-0">
           Aprovecha el despacho <span class="head1span">gratis.</span>
         </p>
-        <p class="head2 text-center text-uppercase mt-0 py-0 mb-0">
+        <p class="head2 text-center text-uppercase mt-4 py-0 mb-0">
           Agregando una pasta de ajo negro
         </p>
       </div>
-    </section>
-    <section class="container col-md-12 section" v-if="!mobile">
-      <div class="row p-0">
+    </div>
+    <div class="col-md-12" v-if="!mobile">
+      <div class="row pt-5">
         <!--Right content-->
         <div class="col-md-7 pl-md-5 order-md-1 order-1">
-          <div class="rightcontent mb-5">...</div>
+          <div class="mb-5 bg-gray w-100 h-50"></div>
           <div class="mb-4">
             <p class="right1">
               Disfruta este ajo negro con un recetario que te ayudara a
@@ -99,8 +99,8 @@
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -140,6 +140,10 @@ export default {
   width: 100%;
 }
 
+.bg-gray {
+  background-color: #d9d9d9;
+}
+
 .head1 {
   color: black;
   font-size: 3.5rem;
@@ -151,14 +155,8 @@ export default {
 }
 
 .head2 {
-  font-size: 3rem;
-  font-weight: smaller;
-}
-
-.rightcontent {
-  background-color: #d9d9d9;
-  width: 100%;
-  height: 600px;
+  font-weight: 300;
+  font-size: 46px;
 }
 
 .right1,
@@ -192,7 +190,7 @@ export default {
 
 .leftcontent {
   background-color: #f6f0ee;
-  height: 105%;
+  height: 1500px;
 }
 
 .left1 {

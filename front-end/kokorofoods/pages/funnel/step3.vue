@@ -1,27 +1,29 @@
 <template>
-  <main role="main" class="bg-light-green">
-    <section class="pl-2 pr-2" v-if="!mobile">
+  <div class="bg-light-green pt-5">
+    <div class="pl-2 pr-2 pt-3" v-if="!mobile">
       <div class="head mx-auto">
-        <p class="ng text-uppercase mb-0 py-0 text-center">
-          <span style="color: #d5441c">24% de descuento</span> En Sal Con Ajo
-        </p>
-        <p class="ng text-uppercase mb-0 py-0 text-center">Negro</p>
-        <p class="agr text-uppercase mt-0 py-0 text-center">
+        <div class="mb-4">
+          <p class="ng text-uppercase mb-0 py-0 text-center">
+            <span style="color: #d5441c">24% de descuento</span> En Sal Con Ajo
+          </p>
+          <p class="ng text-uppercase mb-0 py-0 text-center">Negro</p>
+        </div>
+        <p class="agr text-uppercase mt-0 mb-5 py-0 text-center">
           Agregando una pasta de ajo negro
         </p>
       </div>
-    </section>
-    <section class="py-0" v-if="!mobile">
+    </div>
+    <div class="py-0" v-if="!mobile">
       <div class="d-flex justify-content-center">
         <div>
           <div class="gray-box"></div>
         </div>
       </div>
-    </section>
-    <section class="py-0" v-if="!mobile">
+    </div>
+    <div class="py-0 mt-5" v-if="!mobile">
       <div class="cont d-flex justify-content-left">
         <div>
-          <p class="text-start mt-5">
+          <p class="text-start">
             Disfruta este ajo negro con un recetario que te ayudará a sorprender
             amigos y familiares.
           </p>
@@ -45,29 +47,31 @@
         </div>
       </div>
       <div class="d-flex flex-column justify-content-center align-items-center">
-        <div>
-          <p class="p1 mt-5 mb-0"><del> Antes: $9.500 </del></p>
+        <div class="text-left">
+          <div>
+            <p class="p1 mt-5 mb-0"><del> Antes: $9.500 </del></p>
+          </div>
+          <div>
+            <p class="p2 mb-0">$23.500</p>
+          </div>
+          <p class="p3">+ despacho ($4.000)</p>
         </div>
-        <div>
-          <p class="p2 mb-0">$23.500</p>
-        </div>
-        <p class="p3">+ despacho ($4.000)</p>
         <div>
           <button
             type="button"
-            class="mt-5 mb-0 text-uppercase btn btn-outline-dark"
+            class="mt-5 mb-0 px-5 py-3 rounded text-uppercase comprar-btn"
           >
             compar
           </button>
         </div>
         <div class="pb-2 pt-4 mb-5">
-          <a href="" class="btn"
+          <a href="" class="note"
             >No gracias, quiero pagar el despacho de $4.000</a
           >
         </div>
       </div>
-    </section>
-  </main>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -90,11 +94,6 @@ export default {
 /* #omnisend-forms-container {
   display: none;
 } */
-main {
-  min-height: calc(100vh - 100px);
-  /* Set the minimum height of the main section to be the height of the viewport minus the height of the footer */
-  background-color: #f3f5e6;
-}
 
 .bg-light-green {
   background-color: #f3f5e6;
@@ -104,19 +103,21 @@ main {
   width: 100%;
 }
 .gray-box {
-  background-color: grey;
+  background: #d9d9d9;
   height: 429px;
   width: 949px;
 }
 
 .ng {
-  color: black;
-  font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 63px;
 }
 .agr {
-  font-size: 3rem;
-  font-weight: smaller;
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 53px;
+  color: #000000;
 }
 
 .cont {
@@ -146,9 +147,21 @@ main {
   font-weight: 700;
 }
 
-.btn {
-  color: grey;
+.note {
   text-decoration: underline !important;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7e7c7c;
+  width: fit-content;
+}
+
+.comprar-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  background: none;
 }
 
 @media only screen and (max-width: 1023px) {
